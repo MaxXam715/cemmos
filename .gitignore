@@ -1,0 +1,19 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore Logs
+logs
+*.log
+#*.yml
+
+# The file containing environment variables
+.env
+
+# Ignore IDE specific files
+.idea
+.idea/
+.vscode/
+*.sw*
+
+#ngnix
+*.conf
