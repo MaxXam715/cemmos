@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import "./variables.css";
+@import "./fonts.css";
+@import "/assets/icons/icons.css";
+@import "./uikit.css";
+@import "./home.css";
+@import "/plugins/splide/splide.min.css";
+@import "./normalize.css";
+
+html {
+    background-color: var(--body-color);
+}
+
+body {
+    font-family: "Days One", sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+    width: 0;
+}
+
+.no-scroll::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
+}
+
+.G-container {
+    max-width: calc(var(--container) + 120px);
+    width: 100%;
+    padding: 0 60px;
+    margin: 0 auto;
+    z-index: 1;
+}

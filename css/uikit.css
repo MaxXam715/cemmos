@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* кнопки */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 9px 15px;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+
+    width: max-content;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* primary */
+.btn.btn-primary {
+    color: #fff;
+    background: var(--orange);
+}
+
+.btn.btn-primary:hover {
+    background: var(--orange-hover);
+}

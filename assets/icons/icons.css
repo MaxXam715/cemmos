@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+
+    mask-size: contain;
+    -webkit-mask-size: contain;
+
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+
+    mask-position: center;
+    -webkit-mask-position: center;
+
+    font-size: 16px;
+    background-color: #000000;
+}
+
+.icon.phone {
+    mask-image: url(./phone.svg);
+    -webkit-mask-image: url(./phone.svg);
+}
+
+.icon.email {
+    mask-image: url(./email.svg);
+    -webkit-mask-image: url(./email.svg);
+}
+
+.icon.arrow-left {
+    mask-image: url(./arrow-left.svg);
+    -webkit-mask-image: url(./arrow-left.svg);
+}
+
+.icon.arrow-right {
+    mask-image: url(./arrow-right.svg);
+    -webkit-mask-image: url(./arrow-right.svg);
+}
